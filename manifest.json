@@ -1,0 +1,12 @@
+{
+    "name": "Template",
+    "version": "1",
+    "manifest_version": 2,
+    "description": "Template Chrome Extension",
+    "content_scripts": [{
+      "matches": ["https://example.com/*"],
+      "js": [
+        "main.js"
+      ]
+    }]
+  }
